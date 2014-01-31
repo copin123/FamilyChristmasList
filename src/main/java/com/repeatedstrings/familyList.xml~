@@ -1,0 +1,19 @@
+?xml version="1.0" encoding="utf-8"?> 
+   
+<title type="text">Family Christmas List</title>
+<familyId>
+	<familyName></familyName>//combo of parents names
+	
+	
+</familyId>
+
+//a person should have:
+family name/id
+name/id
+gender
+age (above little kid list age, config)
+interests?
+
+//implicitly we should know
+members of that family
+
