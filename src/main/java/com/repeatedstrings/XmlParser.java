@@ -33,9 +33,9 @@ public class XmlParser {
 
 		String nodeName = xpp.getName();
 		// layout for family tree
-		if (nodeName.contentEquals(APPLICATIONS)) {
-
-		}
+//		if (nodeName.contentEquals(APPLICATIONS)) {
+//
+//		}
 
 	}
 
