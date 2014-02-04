@@ -9,6 +9,7 @@ import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;
 
+import FamilyMembers.FamilyXmlConstants;
 import android.os.Environment;
 
 public class XmlParser {
@@ -33,9 +34,9 @@ public class XmlParser {
 
 		String nodeName = xpp.getName();
 		// layout for family tree
-//		if (nodeName.contentEquals(APPLICATIONS)) {
-//
-//		}
+		if (nodeName.contentEquals(FamilyXmlConstants.)) {
+
+		}
 
 	}
 
