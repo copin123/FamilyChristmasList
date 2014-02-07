@@ -3,6 +3,7 @@ package FamilyMembers;
 import java.util.ArrayList;
 
 public class Family {
+	public String uniqueId;
 	public int familyId;
 	public String familyName;
 	public String familyParentName1;
@@ -11,12 +12,17 @@ public class Family {
 	public ArrayList<FamilyMember> familyMembers;
 
 	public static class Builder {
+		public String uniqueId;
 		public int familyId;
 		public String familyName;
 		public String familyParentName1;
 		public String familyParentName2;
 		public String familyLastName;
 
+		public Builder uniqueId(String uniqueId) {
+			this.uniqueId = uniqueId;
+			return this;
+		}
 		public Builder familyId(int familyId) {
 			this.familyId = familyId;
 			return this;
@@ -49,6 +55,7 @@ public class Family {
 	}
 
 	private Family(Builder builder) {
+		uniqueId = builder.uniqueId;
 		familyId = builder.familyId;
 		familyName = builder.familyName;
 		familyParentName1 = builder.familyParentName1;
