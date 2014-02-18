@@ -1,11 +1,14 @@
 package com.repeatedstrings;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.StringReader;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;
+
+import android.os.Environment;
 
 public class XmlParser {
 
@@ -16,6 +19,9 @@ public class XmlParser {
 	public void parseXML() throws XmlPullParserException, IOException {
 		XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
 		factory.setNamespaceAware(true);
+		
+		File sdCard = Environment.getExternalStorageDirectory();
+		File file = new File(sdCard, "familychristmaslist.xml");
 
 		XmlPullParser xpp = factory.newPullParser();
 		
