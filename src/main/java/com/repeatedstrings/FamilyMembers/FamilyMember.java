@@ -1,4 +1,4 @@
-package FamilyMembers;
+package com.repeatedstrings.FamilyMembers;
 
 public class FamilyMember {
 	public String memberId;

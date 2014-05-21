@@ -1,4 +1,4 @@
-package FamilyMembers;
+package com.repeatedstrings.FamilyMembers;
 
 public enum FamilyXmlConstants {
 	FAMILY("FAMILY"),UNIQUE_ID("UNIQUE_ID"),	FAMILY_ID("FAMILY_ID"), FAMILY_NAME("FAMILY_NAME"), FAMILY_PARENT_NAME_1(

@@ -1,8 +1,9 @@
-package FamilyMembers;
+package com.repeatedstrings.FamilyMembers;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
-public class Family {
+public class Family implements Iterable{
 	public String uniqueId;
 	public int familyId;
 	public String familyName;
@@ -61,5 +62,15 @@ public class Family {
 		familyParentName1 = builder.familyParentName1;
 		familyParentName2 = builder.familyParentName2;
 		familyLastName = builder.familyLastName;
+	}
+
+	public void getFamily() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Iterator iterator() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
