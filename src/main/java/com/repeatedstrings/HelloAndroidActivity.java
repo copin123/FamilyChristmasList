@@ -1,5 +1,9 @@
 package com.repeatedstrings;
 
+import com.repeatedstrings.FamilyMembers.Family;
+import com.repeatedstrings.FamilyMembers.FamilyMember;
+import com.repeatedstrings.FamilyMembers.FamilyMember.Builder;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -20,6 +24,9 @@ public class HelloAndroidActivity extends Activity {
         
 //        get xml file 
         XmlParser xml = new XmlParser();
+        FamilyMember me = new FamilyMember();
+        FamilyMember kenny = new FamilyMember();
+        me.memberLName("Frandsen");
     }
 
     @Override

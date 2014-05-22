@@ -1,12 +1,12 @@
 package com.repeatedstrings.sortLogic;
 
 import com.repeatedstrings.SortedFamilyList;
-import com.repeatedstrings.FamilyMembers.Family;
+import com.repeatedstrings.FamilyMembers.Families;
 
 public class SortMister {
-	public SortedFamilyList SortThisYear(Family familyList) {
+	public SortedFamilyList SortThisYear(Families familyList) {
 		SortedFamilyList sorted = new SortedFamilyList();
-		familyList.getFamily();
+//		familyList.getFamily();
 		
 		return sorted;
 	}
